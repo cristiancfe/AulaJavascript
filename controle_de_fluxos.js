@@ -18,15 +18,18 @@
 
 // estrutura de seleção usando switch case
 
-// var ingresso = 'premium'
-// switch (ingresso) {
-//     case 'vip':
-//         console.log('você ficará no camarote')
-//         break
-//     case 'premium':
-//         console.log('você ficará na Pista')
-//         break
-//     case 'comum':
-//         console.log('você ficará na arquibancada')
-//         break
-// }
+var ingresso = 'premium'
+switch (ingresso) {
+    case 'vip':
+        console.log('você ficará no camarote')
+        break
+    case 'premium':
+        console.log('você ficará na Pista')
+        break
+    case 'comum':
+        console.log('você ficará na arquibancada')
+        break
+    default:
+        console.log('Tipo de ingresso inválido')
+        break
+}
