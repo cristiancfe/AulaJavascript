@@ -51,4 +51,9 @@
 // for (var a = 0; a < 10; a++) {
 //     console.log('Repetindo porque ' + a + ' é menor que 10')
 // }
-// pode se usar ${a} para concatenar a variável
+// pode se usar ${a} para concatenar a variável mas eu prefiro  + a +
+
+var vingadores = ['IronMan', 'Thor', 'SpiderMan']
+vingadores.forEach(function(value, key) {
+    console.log(value + ' na posição ' + key)
+})
