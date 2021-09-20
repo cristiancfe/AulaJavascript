@@ -53,7 +53,7 @@
 // }
 // pode se usar ${a} para concatenar a variável mas eu prefiro  + a +
 
-var vingadores = ['IronMan', 'Thor', 'SpiderMan']
-vingadores.forEach(function(value, key) {
-    console.log(value + ' na posição ' + key)
-})
+// var vingadores = ['IronMan', 'Thor', 'SpiderMan']
+// vingadores.forEach(function(value, key) {
+//     console.log(value + ' na posição ' + key)
+// })
