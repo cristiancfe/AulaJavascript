@@ -12,7 +12,9 @@ console.log(n1 % n2) // mod ou resto da divisão
 console.log('operadores condicionais')
 
 console.log(n1 > n2) // booleano tras valor true para verdadeiro
+console.log(n1 >= n2) // booleano tras valor true para verdadeiro
 console.log(n1 < n2) // booleano tras valor false para falso
+console.log(n1 <= n2) // booleano tras valor false para falso
 console.log(n1 == n2) // compara se o valor é igual
 console.log(n1 != n2) // compara se o valor é diferente
 console.log(n4 == n2) // compara se o valor é igual mas não compara o tipo , então dá um falso true
