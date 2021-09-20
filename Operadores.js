@@ -6,3 +6,5 @@ console.log(n1 * n2) // multiplicação
 console.log(n1 / n2) // divisão
 console.log(n1 ** n2) // exponenciação
 console.log(n1 % n2) // mod ou resto da divisão
+console.log(n1 > n2) // booleano tras valor true para verdadeiro
+console.log(n1 < n2) // booleano tras valor false para falso
