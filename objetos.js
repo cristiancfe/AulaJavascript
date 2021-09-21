@@ -20,3 +20,10 @@ console.log(album.lançamento) // chama o ano de lançamento do album
 
 album.track = ['musica1', 'musica2', 'musica3']
 console.log(album.track)
+
+album.showtracks = function() {
+    this.track.forEach(function(value, key) {
+        console.log(value)
+    })
+}
+album.showtracks()
