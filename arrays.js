@@ -10,8 +10,8 @@ console.log(vingadores)
 
 // para remover um item do array em específico se deve descobrir seu índice
 var indice = vingadores.indexOf('Homem de Ferro')
-console.log(indice)
-    //esta na posição 1 para remover se usa a expressão sprice
-    // vingadores.sprice(indice)
+console.log(indice) // no lugar do parâmetro "indice" dentro dos parênteses, ao colocar o número da posição ele apaga a partir desta posição todos os outros elementos
+    //esta na posição 1 para remover se usa a expressão sprice, se não for informado nada ele apaga tudo
+    // vingadores.sprice(indice) ele remove todos os elementos após o parâmetro informado
     // console.log(vingadores)
     //usando comando concat se consegue concatenar dois arrays -  var novo array = array.concat(array2)
