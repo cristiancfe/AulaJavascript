@@ -3,7 +3,7 @@ var album = {
     lançamento: 1991,
     showInfo: function() {
         console.log(
-            'Título do album: ' + this.titulo + '- lançado em: ' + this.lançamento
+            `Título do album: ${this.titulo} - lançado em: ${this.lançamento}` // usar crase e não aspas simples
         )
     }
 }
@@ -14,9 +14,9 @@ var album = {
 //album.titulo = 'black album'
 //album.lançamento = 1991
 
-//album.showInfo() // chama a função dentro do objeto
-console.log(album.titulo) //chama o titulo do album
-console.log(album.lançamento) // chama o ano de lançamento do album
+album.showInfo() // chama a função dentro do objeto
+    //console.log(album.titulo) //chama o titulo do album
+    //console.log(album.lançamento) // chama o ano de lançamento do album
 
 // album.track = ['musica1', 'musica2', 'musica3']
 // console.log(album.track)
